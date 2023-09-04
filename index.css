@@ -1,0 +1,57 @@
+/* @font-face {
+  font-family: Tiempos;
+  src: url(TiemposHeadline-Light.otf);
+} */
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  background-image: url(/pexels-volkan-vardar-3887985.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: repeat;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 6rem;
+  font-weight: 100;
+  margin: 3rem;
+}
+
+p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+button {
+  padding: 1.5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+
+#add-btn {
+}
+
+#save-btn {
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.outline {
+  text-shadow:    
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;
+}
